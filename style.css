@@ -7,7 +7,7 @@
 }
 h1, h2, h3, button{
     font-weight: 500;
-    color: black;
+    color: rgb(255, 255, 255);
     text-wrap-mode: wrap;
     text-align: center;
     margin: 0% auto;
@@ -16,10 +16,10 @@ h1, h2, h3, button{
 .quotes, .author{
     font-size: 20px;
 }
-.author{
+.author {
     padding: 10px 23px;
     border-radius: 6px;
-    background: rgba(0, 0, 255, 0.353);
+    background: rgb(0 255 128 / 35%);
     margin: 40px 0 30px;
 }
 body{
@@ -37,7 +37,7 @@ body{
     height: auto;
     padding: 30px 20px;
     border-radius: 16px;
-    background: rgb(255 255 255 / 32%);
+    background: rgb(0 0 0 / 16%);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
@@ -51,4 +51,5 @@ button{
     background: white;
     border: none;
     cursor: pointer;
+    color: black;
 }
